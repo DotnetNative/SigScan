@@ -1,9 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackageReadmeFile>PACK.md</PackageReadmeFile>
+	<IncludeContentInPack>true</IncludeContentInPack>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
-
+	<ItemGroup>
+		<Compile Remove="obj\**" />
+		<EmbeddedResource Remove="obj\**" />
+		<None Remove="obj\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="PACK.md">
+			<Pack>true</Pack>
+			<PackagePath></PackagePath>
+			<Visible>False</Visible>
+		</None>
+		<None Include="..\LICENSE.txt">
+			<Pack>true</Pack>
+			<PackagePath></PackagePath>
+			<Visible>False</Visible>
+		</None>
+	</ItemGroup>
 </Project>
