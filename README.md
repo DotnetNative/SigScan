@@ -9,7 +9,7 @@ Mem.CreatePattern("0 2F 90 ?") // 00 2F 90 ??
 Mem.CreatePattern("0 0x2F 90 ?????") // 00 2F 90 ??
 Mem.CreatePattern("00 2F 90 .") // 00 2F 90 ??
 
-Mem.CreatePattern(2d) // 40 00 00 00 00 00 00 00
+Mem.CreatePattern(2d) // 0x40 00 00 00 00 00 00 00
 // So work for all primitive types
 
 Mem.CreatePattern([0, 0x2F, 0x90, null]) // 00 2F 90 ??
