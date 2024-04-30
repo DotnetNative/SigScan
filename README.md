@@ -26,7 +26,7 @@ var found = Mem.Scan(pattern, regions);
 Used Libraries
 ------------------------------
 **DotnetNativeBase** [![NuGet](https://img.shields.io/nuget/v/DotnetNativeBase.svg)](https://www.nuget.org/packages/DotnetNativeBase) \
-**Yotic.Memory.Extensions** [![NuGet](https://img.shields.io/nuget/v/Yotic.Memory.Extensions.svg)](https://www.nuget.org/packages/Yotic.Memory.Extensions)
+**Yotic.Memory.Extensions** [![NuGet](https://img.shields.io/nuget/v/Yotic.Memory.Extensions.svg)](https://www.nuget.org/packages/Yotic.Memory.Extensions) \
 **Memory.Manipulation** [![NuGet](https://img.shields.io/nuget/v/Memory.Manipulation.svg)](https://www.nuget.org/packages/Memory.Manipulation)
 
 Versions
