@@ -1,6 +1,6 @@
 # SigScan [![NuGet](https://img.shields.io/nuget/v/Yotic.SigScan.svg)](https://www.nuget.org/packages/Yotic.SigScan)
 
-Library providing classea and methods for internal signatute scan
+Library providing classes and methods for internal signatute scan
 
 Create pattern for signature scan
 ------------------------------
